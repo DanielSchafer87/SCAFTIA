@@ -1,0 +1,561 @@
+[11:53:33] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1560329613572
+	Error: No Error
+	Encryption: Yes
+	Response Sent: Sent
+	Fake Response: Not Fake
+
+[03:23:07] :
+	Sender: daniel (127.0.0.1)
+	Recipient: daniel
+	Nonce: 1560342187158
+	Error: Unknown Sender
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[04:25:33] :
+	Sender: daniel (127.0.0.1)
+	Recipient: daniel
+	Nonce: 1560691533080
+	Error: Unknown Sender
+	Encryption: No
+	Response Sent: Net Sent
+	Fake Response: Not Fake
+[04:28:39] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1560691715171
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Fake
+[01:27:35] :
+	Sender: InvalidRequestor (127.0.0.1)
+	Recipient: daniel
+	Nonce: 1562063255322
+	Error: Unknown Sender
+	Encryption: No
+	Response Sent: Net Sent
+	Fake Response: Not Fake
+[01:27:57] :
+	Sender: daniel (127.0.0.1)
+	Recipient: InvalidReceiver
+	Nonce: 1562063277315
+	Error: Unknown Sender
+	Encryption: No
+	Response Sent: Net Sent
+	Fake Response: Not Fake
+[01:33:12] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562063591149
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[01:34:54] :
+	Sender: InvalidRequestor (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562063694657
+	Error: Unknown Sender
+	Encryption: No
+	Response Sent: Net Sent
+	Fake Response: Not Fake
+[01:35:13] Invalid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: InvalidReceiver
+	Nonce: 1562063713400
+	Error: Bad HMAC
+	Encryption: No
+	Response Sent: Net Sent
+	Fake Response: Not Fake
+[01:35:46] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562063746842
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Fake
+[01:39:01] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562063940452
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Fake
+[01:43:36] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku2
+	Nonce: 1562064215218
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Fake
+[01:46:04] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku2
+	Nonce: 1562064364155
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Fake
+[01:48:36] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku2
+	Nonce: 1562064515973
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Fake
+[03:43:41] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562071419587
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[04:04:18] :
+	Sender: InvalidRequestor (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562072658564
+	Error: Unknown Sender
+	Encryption: No
+	Response Sent: Net Sent
+	Fake Response: Not Fake
+[04:04:38] Invalid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: InvalidReceiver
+	Nonce: 1562072678532
+	Error: Bad HMAC
+	Encryption: No
+	Response Sent: Net Sent
+	Fake Response: Not Fake
+[04:05:16] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562072715326
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[04:07:06] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562072824936
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[04:11:37] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562073097537
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[04:12:21] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562073141160
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[04:14:35] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562073275523
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[04:16:07] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562073367668
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[04:16:31] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562073391024
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[04:16:54] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562073414926
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[04:20:56] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562073656056
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[04:21:58] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562073717987
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[04:24:30] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562073870236
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[05:39:36] :
+	Sender: InvalidRequestor (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562078376020
+	Error: Unknown Sender
+	Encryption: No
+	Response Sent: Net Sent
+	Fake Response: Not Fake
+[05:44:21] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562078659878
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Fake
+[05:44:47] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku2
+	Nonce: 1562078687211
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Fake
+[05:45:12] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562078712756
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Fake
+[05:45:52] Valid Message::
+	Sender: kuku (127.0.0.1)
+	Recipient: kuku
+	Nonce: 1562078752264
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Fake
+[06:18:28] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562253507854
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:19:18] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562253558905
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:21:35] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562253695644
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:22:10] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562253730840
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:22:42] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562253762468
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:26:16] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562253976713
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:26:41] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562254001867
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:36:29] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562254589009
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:38:33] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562254713497
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:39:45] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562254785210
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:41:59] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562254919635
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:45:54] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562255154452
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:46:21] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562255181921
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:46:48] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562255208135
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:47:36] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562255256900
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:50:28] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562255428857
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:53:09] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562255589101
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:54:09] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562255649546
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:56:37] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562255797345
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[06:59:47] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562255987418
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:03:20] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562256200142
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:04:38] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562256278842
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:06:22] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562256382218
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:09:52] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562256592024
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:23:26] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562257406907
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:23:57] Valid Message::
+	Sender: zohar (10.0.212.18)
+	Recipient: daniel
+	Nonce: 1562257437021
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:25:17] Valid Message::
+	Sender: zohar (10.0.212.18)
+	Recipient: daniel
+	Nonce: 1562257517182
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:25:55] Valid Message::
+	Sender: zohar (10.0.212.18)
+	Recipient: daniel
+	Nonce: 1562257555703
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:27:11] Valid Message::
+	Sender: zohar (10.0.212.18)
+	Recipient: daniel
+	Nonce: 1562257631449
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:27:45] Valid Message::
+	Sender: zohar (10.0.212.18)
+	Recipient: daniel
+	Nonce: 1562257665908
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:28:59] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562257739966
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:30:49] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562257849456
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:32:12] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562257932517
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:32:26] Valid Message::
+	Sender: zohar (10.0.212.18)
+	Recipient: daniel
+	Nonce: 1562257946416
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:32:51] Valid Message::
+	Sender: zohar (10.0.212.18)
+	Recipient: daniel
+	Nonce: 1562257971352
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:33:05] Valid Message::
+	Sender: daniel (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562257985644
+	Error: No Error
+	Encryption: No
+	Response Sent: Sent
+	Fake Response: Not Fake
+[07:52:17] :
+	Sender: InvalidRequestor (10.0.212.17)
+	Recipient: zohar
+	Nonce: 1562259128196
+	Error: Unknown Sender
+	Encryption: No
+	Response Sent: Net Sent
+	Fake Response: Not Fake

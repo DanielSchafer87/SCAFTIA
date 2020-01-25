@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="544.0" prefWidth="607.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SCAFTIA_Controller">
+   <children>
+      <Separator layoutX="420.0" layoutY="14.0" orientation="VERTICAL" prefHeight="520.0" prefWidth="6.0" />
+      <Button fx:id="btnStartStop" layoutX="11.0" layoutY="49.0" mnemonicParsing="false" onAction="#StartStopServer" prefHeight="70.0" prefWidth="398.0" text="Start Server">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <TextArea fx:id="teMessages" layoutX="11.0" layoutY="237.0" prefHeight="297.0" prefWidth="398.0" />
+      <Label layoutX="437.0" layoutY="14.0" text="Server Listening IP and Port" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfIPPort" disable="true" layoutX="441.0" layoutY="39.0" promptText="IP:Port" />
+      <Separator layoutX="447.0" layoutY="181.0" prefHeight="7.0" prefWidth="135.0" />
+      <Label layoutX="500.0" layoutY="186.0" text="Users" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfUsername" disable="true" layoutX="441.0" layoutY="207.0" promptText="Username" />
+      <TextField fx:id="tfPassword" disable="true" layoutX="440.0" layoutY="241.0" promptText="Password" />
+      <Button fx:id="btnAddUser" disable="true" layoutX="441.0" layoutY="277.0" mnemonicParsing="false" onAction="#AddUser" prefHeight="25.0" prefWidth="149.0" text="Add User" />
+      <ListView fx:id="lvUsers" disable="true" layoutX="440.0" layoutY="309.0" prefHeight="139.0" prefWidth="149.0" />
+      <Button fx:id="btnRemoveUser" disable="true" layoutX="439.0" layoutY="458.0" mnemonicParsing="false" onAction="#RemoveUser" prefHeight="25.0" prefWidth="149.0" text="Remove User" />
+      <Separator layoutX="439.0" layoutY="491.0" prefHeight="1.0" prefWidth="149.0" />
+      <Button fx:id="btnEditSettings" layoutX="439.0" layoutY="505.0" mnemonicParsing="false" onAction="#OnOffSettings" prefHeight="25.0" prefWidth="149.0" text="Edit Settings" />
+      <Label layoutX="92.0" layoutY="4.0" prefHeight="36.0" prefWidth="242.0" text="SCAFTIA Server" underline="true">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <Separator layoutX="448.0" layoutY="72.0" prefHeight="3.0" prefWidth="135.0" />
+      <TextField fx:id="tfMacPass" disable="true" layoutX="439.0" layoutY="108.0" prefHeight="25.0" prefWidth="149.0" promptText="MAC Password" />
+      <Label layoutX="484.0" layoutY="75.0" text="Passwords" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfSharedPass" disable="true" layoutX="439.0" layoutY="152.0" prefHeight="25.0" prefWidth="149.0" promptText="Shared Password" />
+      <Label layoutX="474.0" layoutY="92.0" text="MAC Password" />
+      <Label layoutX="468.0" layoutY="135.0" text="Shared Password" />
+      <TitledPane animated="false" collapsible="false" layoutX="11.0" layoutY="126.0" prefHeight="93.0" prefWidth="398.0" text="Custom Responses">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="76.0" prefWidth="396.0">
+               <children>
+                  <ToggleButton fx:id="toggleInvalidNonce" layoutX="13.0" layoutY="8.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="123.0" text="Invalid Nonce" />
+               </children>
+            </AnchorPane>
+        </content>
+      </TitledPane>
+      <ToggleButton fx:id="toggleInvalidTargetName" layoutX="25.0" layoutY="187.0" mnemonicParsing="false" text="Invalid Target Name" />
+      <ToggleButton fx:id="toggleEncryptWrongRequestor" layoutX="166.0" layoutY="160.0" mnemonicParsing="false" text="Encryption With Wrong Requestor Key" />
+      <ToggleButton fx:id="toggleEncryptWrongRecipient" layoutX="166.0" layoutY="187.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="220.0" text="Encrypted For The Wrong Recipient" />
+   </children>
+</Pane>
